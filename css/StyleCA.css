@@ -1,0 +1,241 @@
+
+	#aboutMe, #education, #skills, #workExp, header{
+		margin-left: 	5em; 
+		padding-top:	2em;
+		
+	}
+	  
+	header {
+		color:			green;
+	}
+	  
+	header p{
+		color:			black;
+		padding:		0em 0em 0em 2em;
+		padding-top:	0em;
+	}
+  
+  .jumbotron{
+		background-image: url('../Image/lights.jpg');
+		color: white;
+		background-attachment: fixed;
+		min-height:400px;
+		margin-top:0px;
+		margin-bottom: 8px
+	  }
+	#welcomeButtons {
+		
+		display: 		table;
+		margin: 		0 auto;
+	
+	}
+	#check{
+		background-color :transparent;
+	}
+	#bon{
+		margin-left: 2em;
+	}
+	#workpic{
+		margin-left:2em;
+		
+	}
+	#ul.b {
+    list-style-type: square;
+	}
+	#tall{
+		margin-right:1em;
+	}
+
+	#bongyu{
+		width : 50%;
+	    margin-left: 2em;
+	}
+
+	#exams{
+		padding-top: 1em;
+		background-image: url('../Image/woods.jpg');
+		background-attachment: fixed;
+		}
+	.uppercase {
+    text-transform: uppercase;
+	}
+	.I-uppercase{
+	  text-transform: uppercase;	
+	}
+	.b-uppercase{
+		 text-transform: uppercase;
+	}
+	.a-uppercase{
+		 text-transform: uppercase;
+	}
+	#carousel-generic{
+		
+		padding-left: 20em;
+		padding-bottom: 5em;
+		
+	}
+	#h3-h3 {
+		color:blue;
+	}
+	
+	#text{
+		color-solid: blue
+	}
+	.carinn{
+	padding-left: 2px;	
+	}
+.btn-success {
+    color: #fff;
+    background-color:#9933CC;
+    border-color: #9933CC;	
+}
+.h2{
+	color: #007E33;
+	background-color:#b71c1c; 
+	text-align: center;
+	width:304px;
+}
+#myCarousel{
+	margin-top:0px;
+	background-image: url('../Image/sun.jpg');
+	background-color: #0277bd;
+	background-attachment: fixed;
+	width:;
+	
+	
+	
+}
+#col1{
+text-align:center;
+color:#8B0000;	
+	
+}
+#col2{
+text-align: center;
+color:#8B0000;	
+}
+#col3{
+text-align: center;
+color:#8B0000;
+size:12;
+}
+#abutMe{
+	text-align:2em;
+	padding-top: 2em;
+}
+
+color:#8B0000;
+.p2{
+	padding-left:10px;
+	
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align:center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+ *{box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+
+
+<div id="animated_div">CSS3<br><span style="font-size:10px;">Animation</span></div>

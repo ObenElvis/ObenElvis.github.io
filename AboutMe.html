@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<htm>
+<head>
+<title>BongyuCV</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/StyleCA.css"/>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Home.html">BongyuCV</a>
+    </div>
+    <ul class="nav navbar-nav">
+				<li class="active"><a href="Home.html">HOME</a></li>
+      <li><a href="AboutMe.html">ABOUT ME</a></li>
+      <li><a href="Education.html">EDUCATION</a></li>
+	  <li><a href="Skills.html">SKILLS</a></li>
+	  <li><a href="WorkExp.html">WORK EXPERIENCE</a></li>
+	  <li><a href="index.html">BOOTSTRAP</a></li>
+    </ul>
+    
+  </div>
+</nav>
+<div class="row"> 
+
+<div class="col-sm-3"><img src="Image/bongyu.jpg" class="img-rounded" alt="bongyu" width="304" height="236">
+<div class="container">
+<br>
+		<h3 class="uppercase">personal attribute.</h3>
+			<ul class="a-uppercase">
+			<li>Computer and Technical Literacy</li>
+			<li>Interpersonal abilities</li>
+			<li>Attention to Details</li>
+			<li> </li>
+		</ul>
+	</div> 
+ </div>
+ 
+ <div class="col-sm-9"> <div id="googleMap" style="width:980px;height:536px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi5YGDzbwb7Bh7xzD5BfeuTRncR3wmxYw&callback=myMap"></script>
+</div>
+	
+		<br><br><br><br>
+     <div class="container">
+		<div id="abutMe">
+			
+		</div>
+	</div>
+	<div>
+	
+	
+	<br>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <div class="container">
+	<a href="https://www.facebook.com/bongyu1"><i class="fa fa-facebook-square fa-2x"></i></a>
+		<a href="https://twitter.com/BongyuE"><i class="fa fa-twitter-square fa-2x"></i></a>
+		<a href="https://www.linkedin.com/in/elvis-bongyu-a58564125/"><i class="fa fa-linkedin-square fa-2x"></i></a>
+	</div>
+	<br><br><br>
+          <div class="container">
+          <button type="button" class="btn btn-success" data-toggle="modal" data-target="bongyelvis@gmail.com">Contact me</button>
+		<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+			Name:<br>
+			<input type="text" name="name"><br>
+			E-mail:<br>
+			<input type="text" name="mail"><br>
+			Comment:<br>
+			<input type="text" name="comment" size="70"><br><br>
+			<input type="submit" value="Send">
+			<input type="reset" value="Reset">
+</form>
+	</div>
+<div id="welcomeButtons">
+
+	<a href="/Image/BonCV1.pdf" BonCV1.pdf>
+	<img border="0" src="/Image/BonCV1.pdf" alt="Download my CV" button class="btn btn-success"></button>&nbsp;&nbsp;&nbsp; 
+</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
